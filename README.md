@@ -6,18 +6,7 @@
 [![Scaleflex team](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20-Scaleflex%20team-6986fa.svg)](https://www.scaleflex.com/en/home)
 [![Cloudimage](https://img.shields.io/badge/Powered%20by-cloudimage-blue)](https://www.cloudimage.io/en/home)
 
-<p align="center">
-	<a href="https://www.cloudimage.io/#gh-light-mode-only">
-		<img
-			alt="cloudimage logo"
-			src="https://scaleflex.cloudimg.io/v7/cloudimage.io/LOGO+WITH+SCALEFLEX-01.png?vh=f6080d&w=350">
-	</a>
-		<a href="https://www.cloudimage.io/#gh-dark-mode-only">
-		<img
-			alt="cloudimage logo"
-			src="https://scaleflex.cloudimg.io/v7/cloudimage.io/cloudimage-logo-light.png?vh=b798ab&w=350">
-	</a>
-</p>
+
 
 <h1 align="center">
    JS Cloudimage 360 View
@@ -45,6 +34,7 @@
 
 ## <a name="table_of_contents"></a>Table of contents
 
+* [Build](#build)
 * [Demo](#demo)
 * [Step 1: Installation](#installation)
 * [Step 2: Initialize](#initialize)
@@ -62,6 +52,49 @@
 * [Contributing](#contributing)
 * [License](#license)
 
+
+## <a name="build"></a> Build
+
+> **Warning**
+> Use Node v16.19.1 LTS
+
+Clone project and install dependencies:
+
+```bash
+  git clone https://github.com/AVTLtd/js-cloudimage-360-view.git
+  cd js-cloudimage-360-view
+  npm install
+```
+
+### Demo
+
+Run demo and configurator:
+
+```bash
+  npm run start-demo
+```
+
+See `package.json` for other demo scripts
+
+### Bundle
+
+Build districution bundle:
+
+```bash
+  npm run build:bundle
+```
+
+Deploy bundle:
+
+```bash
+  npm run deploy:bundle
+```
+
+### Dist
+
+```bash
+  npm run dist
+```
 
 ## <a name="demo"></a> Demo
 
